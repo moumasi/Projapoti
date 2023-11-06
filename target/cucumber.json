@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify user can do mouse over",
+        "description": "",
+        "id": "this-is-a-search-functionality;verify-user-can-do-mouse-over",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1725820700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Launch \u003c\"url\"\u003e pro",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 9
+                }
+              ],
+              "location": "Projapoti_Search.launch_pro(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3253023000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Mouse over to Fashion",
+            "match": {
+              "location": "Projapoti_mouseover.mouse_over_to_Fashion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5297344100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on Designer Handbags",
+            "match": {
+              "location": "Projapoti_mouseover.click_on_Designer_Handbags()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2527988400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify user can do mouse over",
+            "match": {
+              "location": "Projapoti_mouseover.verify_user_can_do_mouse_over()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Jojoba"
+          }
+        ]
+      }
+    ],
+    "name": "This is a search functionality",
+    "description": "",
+    "id": "this-is-a-search-functionality",
+    "keyword": "Feature",
+    "uri": "ProSearch.feature"
+  }
+]
